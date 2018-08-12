@@ -1,0 +1,83 @@
+.hero{
+	font-family: 'Crimson Text', serif;
+	padding: 6rem 0 5rem;
+	text-align: center;
+}
+
+.hero-text {
+	position: relative;
+	
+	white-space: nowrap;
+}
+
+.low-poly {
+	margin-left: 20%;
+	position: relative;
+	width = 100%;
+	
+	-khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+html, body {
+    overflow-y: visible;
+    max-height: 100%
+}
+
+@media (min-width: 550px) {
+	.hero {
+		text-align: right;
+	}
+
+	.hero-text {
+		width: 100%;
+		font-size: 1.2rem;
+	}
+
+	.low-poly {
+		margin-left: -20%;
+	}
+
+
+}
+
+@media (min-width: 750px) {
+		.hero-text {
+		width: 195%;
+		font-size: 2.65rem;
+		margin-top: 6rem;
+		margin-left: -90%;
+	}
+
+	p { margin: -.5rem; }
+	h3 { font-size: 1.85rem; line-height: 1.8; letter-spacing: -.05rem; } 
+}
+
+@media (min-width: 1000px) {
+	.hero-text {
+		width: 220%;
+		height: auto;
+		font-size: 3.7rem;
+		margin-top: 8rem;
+		margin-left: -110%;
+	}
+
+	p { margin: -.5rem; }
+	h3 { font-size: 2.33rem; line-height: 1.5; letter-spacing: -.08rem; }
+}
+
+@media (min-width: 1200px) {
+	.hero-text {
+		margin-top: 8rem;
+		margin-left: -130%;
+		width: 250%;
+		font-size: 4.9rem; 
+		line-height: 1.25; 
+		letter-spacing: -.1rem;
+	}
+	p { margin: 1rem; }
+	h3 { font-size: 2.8rem; line-height: 1.3;  letter-spacing: -.1rem; }
+}
