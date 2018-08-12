@@ -6,7 +6,6 @@
 
 .hero-text {
 	position: relative;
-	
 	white-space: nowrap;
 }
 
@@ -30,6 +29,7 @@ html, body {
 @media (min-width: 550px) {
 	.hero {
 		text-align: right;
+		padding: 2rem 0 1rem;
 	}
 
 	.hero-text {
