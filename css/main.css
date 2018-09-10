@@ -24,7 +24,7 @@
 }
 
 .icons {
-	margin-top: 3%;
+	margin-top: 6%;
 	font-size: 1.7rem;
 }
 
@@ -44,16 +44,29 @@ i {
 	margin: 0 2.5% 0 2.5%; 
 }
 
-a {
+a.icon {
 	text-decoration: none;
-	color: black;
+	color: inherit;
 }
 
-a:hover {
+a.icon:hover {
 	color: #a2cbe2
 }
 
+a.underline {
+	text-decoration: none;
+	color: inherit;
+	background-image: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+	background-repeat: no-repeat;
+	background-size: 100% 0.2em;
+	background-position: 0 88%;
+	transition: background-size 300ms ease-in;
+	-webkit-transition: background-size 275ms ease-in;
+}
 
+a.underline:hover{
+	background-size: 100% 77%;
+}
 
 @media (min-width: 550px) {
 	.hero {
@@ -75,7 +88,7 @@ a:hover {
 	}
 
 	.icons {
-		margin-top: 3%;
+		margin-top: 5%;
 		font-size: 1.8rem;
 	}
 
@@ -100,7 +113,7 @@ a:hover {
 	}
 
 	.icons {
-		margin-top: 3%;
+		margin-top: 4%;
 		font-size: 2.2rem;
 	}
 
@@ -116,7 +129,7 @@ a:hover {
 	.hero-text {
 		width: 220%;
 		height: auto;
-		font-size: 3.7rem;
+		font-size: 3.55rem;
 		margin-top: 8rem;
 		margin-left: -110%;
 	}
